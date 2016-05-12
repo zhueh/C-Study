@@ -10,11 +10,12 @@ public:
 	Person() = default;
 	Person(const string& sn, const string& sa) :name(sn), address(sa){};
 	Person(istream&);
+	const string& getName() const{ return name; };
+	const string& getAddress() const{ retrun address; };
 private:
 	string name;
 	string address;
-	const string& getName() const{ return name; };
-	const string& getAddress() const{ retrun address; };
+
 };
 Person::Person(istream &is){
 	read(is, *this);
