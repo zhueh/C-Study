@@ -1,6 +1,8 @@
 #ifndef CP5_EX_7_23_H
 #define CP5_EX_7_23_H
-
+#include<iostream>
+#include<string>
+using std::string;
 class Screen{
 public:
 	typedef string::size_type pos;

@@ -1,5 +1,5 @@
-#ifndef CP5_EX_7_23_H
-#define CP5_EX_7_23_H
+#ifndef CP5_EX_7_27_H
+#define CP5_EX_7_27_H
 #include<iostream>
 #include<string>
 using std::string;
