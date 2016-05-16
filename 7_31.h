@@ -34,7 +34,7 @@ private:
 	string contents;
 	void do_display(std::ostream &os) const { os << contents; }
 };
-void Window_::clear(ScreenIndex i){
+void Window_mgr::clear(ScreenIndex i){
 	if (i >= screens.size()) return;    // judge for out_of_range.
 	Screen &s = screens[i];
 	s.contents = string(s.height*s.width, ' ');
